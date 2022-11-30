@@ -1,5 +1,5 @@
 // Created by: sophie
-// Created on: oct 2020
+// Created on: nov 2020
 // This file contains the JS functions for index.html
 
 "use strict"
@@ -8,8 +8,8 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-template-pwa/sw.js", {
-    scope: "/ICS2O-template-pwa/",
+  navigator.serviceWorker.register("/ICS2O-unit5-06-loops/sw.js", {
+    scope: "/ICS2O-unit5-06-loops/",
   })
 }
 
