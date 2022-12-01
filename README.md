@@ -1,4 +1,4 @@
-# ICS20-template
+# ICS2O-unit5-06-loops
 
 [![Mr Coxall's Super Linter](https://github.com/sophie-nguyen-0/ICS2O-unit5-06-loops/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/sophie-nguyen-0/ICS2O-unit5-06-loops/actions/)
 
