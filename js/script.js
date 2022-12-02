@@ -17,5 +17,16 @@ if (navigator.serviceWorker) {
  * this function
  */
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+  const num1 = parseFloat(document.getElementById("num1").value)
+  const num2 = parseFloat(document.getElementById("num2").value)
+
+  let count = 0
+  let sum = 0
+
+  while (count < num2) {
+    sum += num1
+    count++
+  }
+
+  document.getElementById("answer").innerHTML = "your answer is: " + sum + "."
 }
